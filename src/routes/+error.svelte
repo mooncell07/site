@@ -6,7 +6,7 @@
     <div class="error-para">
         <b><err>{$page.status}</err> {$page.error.message}</b>
     </div>
-    <div class="error-emoticon">(¯―¯ ٥)</div>
+    <emoticon>(¯―¯ ٥)</emoticon>
 </div>
 
 <style>

@@ -81,10 +81,3 @@ emph {
     width: 100%;
     height: 100%;
 }
-
-.error-emoticon {
-    font-size: calc(3vw + 3vh);
-
-    color: #f5c2e7;
-    font-weight: 600;
-}
