@@ -1,83 +1,77 @@
 html {
-    width: 100%;
-    height: 100%;
-
+  height: 100%;
 }
 
 body {
-    background-color: #1e1e2e;
-    flex-wrap: wrap;
-    font-family: Poppins;
-    width: 100%;
-    height: 100%;
-
+  height: 100%;
+  margin: 0;
+  background-color: #1e1e2e;
+  flex-wrap: wrap;
+  font-family: Poppins;
 }
 
 a:link {
-    color: #f38ba8;
+  color: #f38ba8;
 }
 
 a:active {
-    color: #f5c2e7;
+  color: #f5c2e7;
 }
 
 a:visited {
-    color: #f38ba8;
+  color: #f38ba8;
 }
 
 a:hover {
-    color: #f5c2e7;
+  color: #f5c2e7;
 }
 
 emoticon {
-    color: #f5c2e7;
-    font-weight: 600;
-    font-size: calc(3vw + 3vh);
+  color: #f5c2e7;
+  font-weight: 600;
+  font-size: calc(3vw + 3vh);
 }
 
 emph {
-    font-weight: bold;
-    font-style: italic;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .container {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    color: #b4befe;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size: calc(1.2vw + 1.2vh);
-
+  display: flex;
+  height: 100%;
+  color: #b4befe;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: calc(1.2vw + 1.2vh);
+  padding: 0 20px;
 }
 
 .home-text {
-    overflow: hidden;
-    max-width: 55ch;
-    padding-top: 1%;
+  overflow: hidden;
+  max-width: 55ch;
 }
 
 .navbar {
-    display: flex;
-    font-family: Amaranth;
-    justify-content: flex-end;
-    font-size: calc(0.9vw + 0.9vh);
-    gap: 30px;
-    margin-top: 20px;
-    margin-right: 20px;
-
-
+  display: flex;
+  font-family: Amaranth;
+  justify-content: flex-end;
+  font-size: calc(0.9vw + 0.9vh);
+  gap: 30px;
+  position: absolute;
+  right: 25px;
+  top: 25px;
 }
 
 .error-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
-    font-size: calc(3vw + 3vh);
-    color: #b4befe;
-    width: 100%;
-    height: 100%;
+  font-size: calc(3vw + 3vh);
+  color: #b4befe;
+  width: 100%;
+  height: 100%;
 }
