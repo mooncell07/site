@@ -10,20 +10,14 @@ body {
   font-family: Poppins;
 }
 
-a:link {
+a:link, a:visited {
   color: #f38ba8;
+  text-decoration: none;
 }
 
-a:active {
+a:active, a:hover {
   color: #f5c2e7;
-}
-
-a:visited {
-  color: #f38ba8;
-}
-
-a:hover {
-  color: #f5c2e7;
+  text-decoration: none;
 }
 
 emoticon {
@@ -35,6 +29,14 @@ emoticon {
 emph {
   font-weight: bold;
   font-style: italic;
+}
+
+home {
+  font-family: Roboto;
+  position: absolute;
+  font-size: calc(1.2vw + 1.2vh);
+  left: 25px;
+  top: 25px;
 }
 
 .container {
@@ -55,10 +57,9 @@ emph {
 
 .navbar {
   display: flex;
-  font-family: Amaranth;
-  justify-content: flex-end;
-  font-size: calc(1.4vw + 1.4vh);
-  gap: 30px;
+  font-family: Roboto;
+  font-size: calc(1.2vw + 1.2vh);
+  gap: 35px;
   position: absolute;
   right: 25px;
   top: 25px;

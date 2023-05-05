@@ -6,14 +6,6 @@
       content: "Anshu";
     }
 
-    :global(body) {
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-      align-items: center;
-      justify-content: center;
-      margin: 0;
-    }
 </style>
 
 
