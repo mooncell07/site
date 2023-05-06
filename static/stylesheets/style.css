@@ -48,6 +48,7 @@ home {
   flex-direction: column;
   font-size: calc(1.2vw + 1.2vh);
   padding: 0 20px;
+  animation: fade .5s;
 }
 
 .home-text {
@@ -70,9 +71,19 @@ home {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  animation: fade .5s;
 
   font-size: calc(3vw + 3vh);
   color: #b4befe;
   width: 100%;
   height: 100%;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
