@@ -1,5 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   height: 100%;
+}
+
+html, body, div, img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 body {
@@ -83,6 +96,7 @@ home {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
