@@ -51,7 +51,7 @@
         background-color: #181825;
         flex-direction: column;
         margin-bottom: 2%;
-        max-width: 60%;
+        max-width: 90%;
         transition: 0.5s ease;
         cursor: pointer;
     }
