@@ -42,7 +42,7 @@
 </script>
 
 <div class="container">
-    <emoticon>˗ˏˋ ♡ ˎˊ˗</emoticon>
+    <emoticon>(⌐■_■)</emoticon>
     Some of my projects on GitHub
     <div class="cardDiv">
         {#each cards as card}
