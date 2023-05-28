@@ -33,6 +33,15 @@ a:active, a:hover {
   text-decoration: none;
 }
 
+table, th, td {
+  border-collapse: collapse;
+  border: 2px solid;
+}
+
+th, td {  
+  padding: 10px;  
+}
+
 emoticon {
   color: #f5c2e7;
   font-weight: 600;
