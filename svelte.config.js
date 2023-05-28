@@ -12,9 +12,9 @@ const config = {
 	preprocess: [
 		vitePreprocess(),
 		mdsvex({
-				extensions: ['.md'],
-				layout: path.join(dirname, './src/routes/blog/Layout.svelte')
-	  	})
+			extensions: ['.md'],
+			layout: path.join(dirname, './src/routes/blog/Layout.svelte')
+		})
 	],
 
 	kit: {

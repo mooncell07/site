@@ -1,46 +1,18 @@
+<script>
+    export let data;
+</script>
+
 <div class="container blog-overloads">
     <h2><emoticon>….〆(･ω･。)</emoticon></h2>
 
-    <div class="postcard">
-        <a href="/blog/first-draft/">
-            <h1>First Draft.</h1>
-            This is the first draft for "blogs" page.
-        </a>
-    </div>
-
-    <div class="postcard">
-        <h1>Lorem ipsum dolor sit.</h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit., Lorem ipsum dolor
-        sit amet consectetur adipisicing elit. Porro, molestiae!
-    </div>
-
-    <div class="postcard">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.,
-    </div>
-
-    <div class="postcard">
-        <h1>Lorem ipsum dolor sit.</h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit., Lorem ipsum dolor
-        sit amet consectetur adipisicing elit. Porro, molestiae!
-    </div>
-
-    <div class="postcard">
-        <h1>Lorem ipsum dolor sit.</h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit., Lorem ipsum dolor
-        sit amet consectetur adipisicing elit. Porro, molestiae!
-    </div>
-
-    <div class="postcard">
-        <h1>Lorem ipsum dolor sit.</h1>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum voluptates
-        sint, repellat cum fugit nulla! Quos repellendus porro voluptate minima.
-        Repellendus porro similique eligendi ab nisi explicabo voluptatem perferendis
-        quas!
-    </div>
-
-    <div class="postcard">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.,
-    </div>
+    {#each data.blogs as blog}
+        <div class="postcard">
+            <a href={blog.path}>
+                <h1>{blog.meta.title}</h1>
+                {blog.meta.description}
+            </a>
+        </div>
+    {/each}
 </div>
 
 <style>
