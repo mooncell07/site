@@ -1,3 +1,13 @@
+:root {
+  --bgclr: #1e1e2e;
+  --lnkbase: #f38ba8;
+  --lnkuse: #f5c2e7;
+  --emoticon: var(--lnkuse);
+  --maintxt: #b4befe;
+  --postcrd: #181825;
+  --shadow: var(--postcrd);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -18,18 +28,18 @@ html, body, div, img {
 body {
   height: 100%;
   margin: 0;
-  background-color: #1e1e2e;
+  background-color: var(--bgclr);
   flex-wrap: wrap;
   font-family: Poppins;
 }
 
 a:link, a:visited {
-  color: #f38ba8;
+  color: var(--lnkbase);
   text-decoration: none;
 }
 
 a:active, a:hover {
-  color: #f5c2e7;
+  color: var(--lnkuse);
   text-decoration: none;
 }
 
@@ -38,12 +48,12 @@ table, th, td {
   border: 2px solid;
 }
 
-th, td {  
-  padding: 10px;  
+th, td {
+  padding: 10px;
 }
 
 emoticon {
-  color: #f5c2e7;
+  color: var(--emoticon);
   font-weight: 600;
   font-size: calc(3vw + 3vh);
 }
@@ -64,7 +74,7 @@ home {
 .container {
   display: flex;
   height: 100%;
-  color: #b4befe;
+  color: var(--maintxt);
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -96,7 +106,7 @@ home {
   animation: fade .5s;
 
   font-size: calc(3vw + 3vh);
-  color: #b4befe;
+  color: var(--maintxt);
   width: 100%;
   height: 100%;
 }

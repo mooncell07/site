@@ -1,7 +1,11 @@
+<script>
+  import emote from "/src/lib/headings.json";
+</script>
+
 <div class="container">
   <div class="home-text">
-    <emoticon>( ^_^)／</emoticon><br />Hey everyone! My name's
-    <emph><anshu /></emph>
+    <emoticon>{emote["home"]}</emoticon><br />Hey everyone! My name's
+    <emph><namehl> Anshu </namehl></emph>
     and i am a programmer from
     <emph>India</emph>. I love <emph>emulation</emph>, <emph>networking</emph>
     and also i am highly interested in
@@ -15,10 +19,7 @@
 </div>
 
 <style>
-  anshu {
-    color: #f38ba8;
-  }
-  anshu:before {
-    content: "Anshu";
+  namehl {
+    color: var(--lnkbase);
   }
 </style>

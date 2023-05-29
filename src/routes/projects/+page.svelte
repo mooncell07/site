@@ -1,4 +1,6 @@
 <script lang="ts">
+    import emote from "/src/lib/headings.json";
+
     const USER = "mooncell07";
     let base = "https://github-readme-stats.vercel.app/api/pin/";
     let defaults = {
@@ -42,7 +44,7 @@
 </script>
 
 <div class="container">
-    <emoticon>(⌐■_■)</emoticon>
+    <emoticon>{emote["projects"]}</emoticon>
     Some of my projects on GitHub
     <div class="cardDiv">
         {#each cards as card}
