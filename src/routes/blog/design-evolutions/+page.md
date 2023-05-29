@@ -34,7 +34,7 @@ Following minor fixes and additions are also in my mind -
 - Footer with copyrights and social links.
 - More Meta info on Post Cards in /blog
 - More "dynamic" or "alive" hobbies page.
-- Response Home page.
+- Responsive Home page.
 
 Well, that's it for this blog! We have a long way to go and this design atm is experimental,
 i might change it alot in future (that is, if i don't lose my motivation again lul). Byee
