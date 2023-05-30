@@ -6,8 +6,7 @@
 <div class="container page-overloads">
     <emoticon>{title}</emoticon>
     <date>Date: {date}</date>
-
-    <slot />
+    <set-wrap><slot /></set-wrap>
 </div>
 
 <style>
@@ -19,4 +18,8 @@
         margin-top: 20%;
         justify-content: unset;
     }
+    set-wrap {
+        max-width: var(--max-word-lim);
+    }
+
 </style>

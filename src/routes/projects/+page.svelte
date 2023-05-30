@@ -76,12 +76,13 @@
     .cardDiv img {
         max-width: 100%;
         height: auto;
-        transition: 0.5s ease;
+        transition: 0.5s;
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
         cursor: pointer;
     }
 
     .cardDiv img:hover {
-        transform: scale(1.05);
-        box-shadow: 5px 5px 15px #181825;
+        transform: scale(1.048);
+        box-shadow: 5px 5px 15px var(--shadow);
     }
 </style>

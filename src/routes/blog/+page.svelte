@@ -25,7 +25,8 @@
         flex-direction: column;
         margin-bottom: 2%;
         max-width: 90%;
-        transition: 0.5s ease;
+        transition: 0.5s;
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
         cursor: pointer;
     }
 
@@ -39,13 +40,8 @@
         justify-content: unset;
     }
 
-    h1 {
-        margin-top: 0;
-        margin-bottom: 2%;
-        font-weight: bold;
-    }
     .postcard:hover {
-        transform: scale(1.015);
+        transform: scale(1.048);
         box-shadow: 5px 5px 15px var(--shadow);
     }
 </style>
