@@ -7,6 +7,7 @@
   --postcrd: #181825;
   --shadow: var(--postcrd);
   --max-word-lim: 55ch;
+  --max-word-lim-blg: 70ch
 }
 
 html {

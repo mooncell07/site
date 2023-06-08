@@ -19,7 +19,7 @@
         justify-content: unset;
     }
     set-wrap {
-        max-width: var(--max-word-lim);
+        max-width: var(--max-word-lim-blg);
     }
 
 </style>
