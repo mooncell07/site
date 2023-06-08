@@ -1,5 +1,5 @@
 ---
-title: Period of Stagnantion
+title: Period of Stagnation
 date: "2023-06-04"
 description: Rant on my empty Contributions Calender.
 ---
