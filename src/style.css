@@ -53,30 +53,8 @@ body {
   color: var(--color-text);
 }
 
-.nav {
-  background: radial-gradient(circle, var(--color-nav1) 20%, var(--color-nav2) 100%);
-  animation: scroll 5s linear infinite;
-  padding: 0.5em 0em 0.5em 1.5em;
-  background-size: 200% 200%;
-}
-
-.nav-title {
-  color: var(--color-text);
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 1.25em;
-  text-shadow: var(--color-base) 0px 0px 18px;
-  -webkit-font-smoothing: antialiased;
-}
 
 a {
   text-decoration: none;
   color: #89b4fa;
-}
-
-footer {
-  background-color: var(--color-overlay);
-  padding: 0.5em 0em 0.5em 1.5em;
 }
