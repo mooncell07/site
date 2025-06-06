@@ -11,6 +11,28 @@
   --color-posts2: #f9e2af;
 }
 
+* {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--color-base);
+  color: var(--color-text);
+}
+
+footer {
+  background-color: var(--color-overlay);
+  padding: 0.5em 0em 0.5em 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: #89b4fa;
+}
+
 @keyframes scroll {
   0% {
     background-position: 0% 0%;
@@ -41,20 +63,12 @@
   }
 }
 
-* {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background: var(--color-base);
-  color: var(--color-text);
-}
-
-
-a {
-  text-decoration: none;
-  color: #89b4fa;
+.container {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  text-align: center;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
 }

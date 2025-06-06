@@ -1,14 +1,4 @@
 <style>
-.container {
-  display: flex;
-  flex-direction: column;
-  font-weight: 400;
-  text-align: center;
-  min-height: 100vh;
-  justify-content: center;
-  align-items: center;
-}
-
 .container-title {
   font-size: 2.25em;
 }
@@ -103,12 +93,12 @@
 
   <div class="index">
     <div class="index-entry">
-      <div class="index-projects">Projects</div>
+      <a href="/Projects"><div class="index-projects">Projects</div></a>
       <div class="index-comment">(Some of my open source projects.)</div>
     </div>
 
     <div class="index-entry">
-      <div class="index-posts">Posts</div>
+      <a href="/Posts"><div class="index-posts">Posts</div></a>
       <div class="index-comment">(Some mini-notes of what i did on a specific date.)</div>
     </div>
   </div>

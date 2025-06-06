@@ -4,7 +4,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
 
 <script>
-  import "../style.css"
+  import '../app.css'
 </script>
 
 <style>
@@ -22,7 +22,7 @@
   font-weight: 600;
   font-style: normal;
   font-size: 1.25em;
-  text-shadow: var(--color-base) 0px 0px 18px;
+  text-shadow: var(--color-text) 0px 0px 30px;
   -webkit-font-smoothing: antialiased;
 }
 
