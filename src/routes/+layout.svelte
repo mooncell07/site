@@ -28,8 +28,13 @@
 
 footer {
   background-color: var(--color-overlay);
-  padding: 0.5em 0em 0.5em 1.5em;
+  bottom: 0;
+  padding: clamp(0.25rem, 0.5vw, 1rem);
+  font-size: clamp(0.5rem, 1vw, 1rem);
+  width: 100%;
+  position: fixed;
 }
+
 </style>
 
 <div class="nav">
@@ -37,6 +42,7 @@ footer {
 </div>
 
 <slot />
+<br>
 
 <footer>
   © 2025 mooncell07

@@ -36,7 +36,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 75%;
     height: 20vh;
     margin: 0.75em;
     background-color: var(--color-overlay);
@@ -60,15 +60,28 @@
 
   .card-title {
     font-weight: 600;
-    font-size: clamp(1rem, 2.5vw, 2rem);
+    font-size: 1em;
   }
   .card-content {
     padding-top: 0.5em;
-    font-size: clamp(0.5rem, 1.5vw, 1rem);
+    font-size: 0.5em;
     font-weight: 500;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
+
+  @media screen and (min-width: 768px) {
+    .card {
+      width: 35%;
+    }
+    .card-title{
+      font-size: 1.5em;
+    }
+    .card-content {
+      font-size: 1em;
+    }
+}
+
 </style>
 
 
