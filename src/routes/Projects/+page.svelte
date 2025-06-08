@@ -37,7 +37,7 @@
     justify-content: center;
     align-items: center;
     width: 75%;
-    height: 20vh;
+    height: 5em;
     margin: 0.75em;
     background-color: var(--color-overlay);
     outline: 3px solid var(--accent-color);
@@ -73,6 +73,7 @@
   @media screen and (min-width: 768px) {
     .card {
       width: 35%;
+      height: 10em;
     }
     .card-title{
       font-size: 1.5em;
