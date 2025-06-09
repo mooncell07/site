@@ -33,19 +33,27 @@ footer {
   font-size: clamp(0.5rem, 1vw, 1rem);
   width: 100%;
   position: fixed;
+
 }
 
 </style>
 
+<div class="main">
 <div class="nav">
-  <div class="nav-title"> Mooncell07 </div>
+  <div class="nav-title"><a href="/" style="color: var(--color-text)">Mooncell07</a></div>
 </div>
 
 <slot />
 <br>
-
 <footer>
   © 2025 mooncell07
   |
   <a href="https://www.flaticon.com/free-stickers/red-panda" title="red panda stickers">Red panda stickers created by Surfsup.Vector - Flaticon</a>
+  |
+  <a href="/">Home</a>
+  |
+  <a href="/Projects">Projects</a>
+  |
+  <a href="/Posts">Posts</a>
 </footer>
+</div>

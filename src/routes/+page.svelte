@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 768px) {
   .container-content {
-    max-width: 100%;
+    max-width: 95%;
   }
 }
 
@@ -38,7 +38,7 @@
   width: 100%;
   background-image: conic-gradient(from var(--angle), var(--color-nav1), var(--color-nav2), var(--color-nav1));
   z-index: -1;
-  padding: 0.175em;
+  padding: 0.2em;
   border-radius: 10px;
   animation: 5s spin linear infinite;
 }
@@ -82,7 +82,7 @@
 <div class="container">
   <div class="container-title">Welcome!</div>
   <div class="container-content"> Hey, this is nova/mooncell07, welcome to my personal blogging site. I developed this
-  site as part of my journey into Web Development. My main interests lie in Emulator
+  site as part of learning Web Development. My main interests include Emulator
   Development and Network Programming though i do enjoy exploring other areas in tech. I also love playing games, currently i am actively playing Warframe,
   SCP: Roleplay and Fate/Grand Order.<br><br>
 
@@ -107,6 +107,6 @@
   You can find the repository for this site <a href="https://github.com/mooncell07/site">here</a>.<br>
   </div>
 
-  <img src="assets/red-panda-cute.png" alt="" width=100vh height=100vh style="margin-top: 0.5em;">
+  <img src="assets/red-panda-cute.png" alt="" width=100vh height=100vh style="margin-top: 0.5em;margin-bottom: 2em;">
 
 </div>

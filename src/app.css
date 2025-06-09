@@ -9,6 +9,7 @@
   --color-projects2: #f5c2e7;
   --color-posts1: #a6e3a1;
   --color-posts2: #f9e2af;
+  --color-link: #89b4fa;
 }
 
 * {
@@ -23,14 +24,11 @@ body {
   color: var(--color-text);
 }
 
-footer {
-  background-color: var(--color-overlay);
-  padding: 0.5em 0em 0.5em 1.5em;
-}
-
 a {
   text-decoration: none;
-  color: #89b4fa;
+  color: var(--color-link);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
 }
 
 @keyframes scroll {
@@ -63,12 +61,20 @@ a {
   }
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   font-weight: 400;
   text-align: center;
-  min-height: 100vh;
+  height: 100vh;
+  margin-top: 1em;
   justify-content: center;
   align-items: center;
+  flex: 1;
 }
