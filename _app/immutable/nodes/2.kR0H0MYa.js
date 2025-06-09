@@ -1,4 +1,4 @@
-import{f as t,a as s}from"../chunks/DzSOGv9u.js";import"../chunks/Ce4skoK_.js";var o=t(`<div class="container"><div class="container-title svelte-7if7i9">Welcome!</div> <div class="container-content svelte-7if7i9">Hey, this is nova/mooncell07, welcome to my personal blogging site. I developed this
+import{f as t,a as s}from"../chunks/CBowuOSo.js";import"../chunks/CTQgwYu7.js";var o=t(`<div class="container"><div class="container-title svelte-7if7i9">Welcome!</div> <div class="container-content svelte-7if7i9">Hey, this is nova/mooncell07, welcome to my personal blogging site. I developed this
   site as part of learning Web Development. My main interests include Emulator
   Development and Network Programming though i do enjoy exploring other areas in tech. I also love playing games, currently i am actively playing Warframe,
   SCP: Roleplay and Fate/Grand Order.<br/><br/> This site uses the SvelteKit Frontend framework and color scheme is a combination of Rose Pine and Catppuccin.
