@@ -1,1 +1,1 @@
-Personal Site, written using SvelteKit
+Personal Site, written using SvelteKit.
