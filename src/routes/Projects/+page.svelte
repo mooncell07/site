@@ -32,7 +32,7 @@
   },
   {
     name: "Devnull",
-    desc: "An Discord Bot for assembling and disassembling through Keystone and Capstone in Python.",
+    desc: "A Discord Bot for assembling and disassembling through Keystone and Capstone in Python.",
     link: "https://github.com/mooncell07/devnull",
     color1: color_python1,
     color2: color_python2
