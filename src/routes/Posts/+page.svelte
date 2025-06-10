@@ -3,10 +3,14 @@
 	let { data } = $props();
 
 	function clean(line){
-		let struct = line.split(":", 2);
-		struct[0] = "<h1>"
-		return struct.join("");
-	}
+		let index = line.indexOf(":");
+		return "<h1>" + line.substring(index+1, line.length);
+		}
+
+		function is_main(line){
+			let struct = line.split(":", 2);
+			return struct[0][4] == "0";
+		}
 
 </script>
 
@@ -16,41 +20,35 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		background-color: var(--color-base);
 		align-content: center;
-		height: 100vh;
+		flex: 1;
 	}
+
 	.posts-main{
+		padding-top: 1em;
+		padding-bottom: 1em;
 		display: flex;
 		flex-direction: column;
-		align-items: left;
 		justify-content: center;
-		height: 100vh;
-		width: 50vw;
-		text-align: left;
+		width: 75vw;
+		height: 100%;
 		background-color: var(--color-overlay);
-		flex: 1;
 }
 
-	.entry{
+	.sub-entry{
 		display: flex;
-		flex-direction: row;
+		max-width: 80%;
+		margin-top: 0.75em;
 	}
 
 	.text {
   	background-color: #313244;
 		color: var(--color-text);
- 		padding: 0.75em;
+ 		padding: 1em;
  		border-radius: 10px;
-		margin-top: 1em;
 		height: max-content;
 
-		font-size: 0.25em;
-		font-weight: 300em;
-	}
-
-	pad {
-		width: 6vh;
+		font-size: 0.2em;
 	}
 
 	img {
@@ -59,6 +57,10 @@
 	}
 
   @media screen and (min-width: 768px) {
+  	.posts-main {
+  		width: 60vw;
+  		height: 100%;
+  	}
     .text {
       font-size: 0.5em;
     }
@@ -66,30 +68,34 @@
     	height: 12vh;
     	width: 12vh;
     }
-    pad {
-    	width: 12vh
-    }
 }
 </style>
 
+
 <div class="posts-container">
 	<div class="posts-main">
-		{#each data.html as h, i}
-			{#if h.startsWith("<h1>")}
-				<div class="entry">
-
-					{#if i == (data.html.length-2)}
-					<img src="assets/red-panda-smiling.png" alt="">
-					{:else}
-					<pad></pad>
-					{/if}
-					
-					<div class="text">
-					{@html clean(h)}
+		{#each data.lines as l, i}
+			{#if l.startsWith("<h1>")}
+				{#if is_main(l)}
+					<div class="sub-entry">
+						<img src="assets/red-panda-smiling.png" alt="">
+						<div class="text">
+							{@html clean(l)}
+						</div>
 					</div>
-	
-				</div>
+
+				{:else}
+					<div class="sub-entry" style="justify-content: right;max-width: 100%;padding-left: 20%;">
+						<div class="text">
+							{@html clean(l)}
+						</div>
+						<img src="assets/red-panda-running.png" alt="">
+					</div>
+
+				{/if}
+
 			{/if}
+	
 		{/each}
 
 	</div>

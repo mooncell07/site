@@ -64,7 +64,7 @@ a {
 .main {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .container {
@@ -72,7 +72,6 @@ a {
   flex-direction: column;
   font-weight: 400;
   text-align: center;
-  height: 100vh;
   margin-top: 1em;
   justify-content: center;
   align-items: center;
