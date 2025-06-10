@@ -25,15 +25,22 @@
 	}
 
 	.posts-main{
-		padding-top: 1em;
-		padding-bottom: 1em;
+		margin-top: 3em;
+		margin-bottom: 3em;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		width: 75vw;
+		width: 90vw;
 		height: 100%;
 		background-color: var(--color-overlay);
+		outline: 0.1em solid var(--color-nav2);
 }
+	.posts-title{
+		padding-top: 1em;
+		font-size: 1.25em;
+		font-style: italic;
+		color: var(--color-muted);
+	}
 
 	.sub-entry{
 		display: flex;
@@ -42,7 +49,7 @@
 	}
 
 	.text {
-  	background-color: #313244;
+  	background-color: var(--color-surface);
 		color: var(--color-text);
  		padding: 1em;
  		border-radius: 10px;
@@ -71,6 +78,7 @@
 
 <div class="posts-container">
 	<div class="posts-main">
+		<center class="posts-title">Chat Room: {data.name}</center>
 		{#each data.lines as l, i}
 			{#if l.startsWith("<h1>")}
 				{#if is_main(l)}

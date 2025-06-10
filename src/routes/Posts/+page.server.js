@@ -12,6 +12,7 @@ function getLines(filePathStr) {
 export function load({ params }) {
     const lines = getLines("blog/first.md");
     return {
-        lines
+        "lines": lines,
+        "name": "blog/first.md"
     };
 }
