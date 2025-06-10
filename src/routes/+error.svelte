@@ -30,7 +30,7 @@
 
 <div class="error-container">
 
-  <img src="assets/red-panda-log.png" alt="" width=150vh height=150vh>
+  <img src="/assets/red-panda-log.png" alt="" width=150vh height=150vh>
   <div class="error-content">
     <status>{page.status}</status>
     {page.error.message}

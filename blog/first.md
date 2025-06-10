@@ -1,3 +1,5 @@
+@0
+
 # 0: Hello!
 # 1: Yoo whats this?!
 # 0: I kinda got bored of the usual "blog" format so i made this. Its pretty fun to write posts in this format.

@@ -1,55 +1,4 @@
 <style>
-.container-title {
-  font-size: 2.25em;
-}
-
-.container-content {
-  padding-top: 1em;
-  font-size: 1em;
-  max-width: 55%;
-}
-
-@media screen and (max-width: 768px) {
-  .container-content {
-    max-width: 95%;
-  }
-}
-
-.index {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: var(--color-overlay);
-  width: 50%;
-  height: 25%;
-  margin-top: 2em;
-  border-radius: 10px;
-  position: relative;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-}
-
-.index::after,
-.index::before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-image: conic-gradient(from var(--angle), var(--color-nav1), var(--color-nav2), var(--color-nav1));
-  z-index: -1;
-  padding: 0.2em;
-  border-radius: 10px;
-  animation: 5s spin linear infinite;
-}
-
-.index-entry {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0.5em;
-}
 
 .index-projects {
   background: radial-gradient(circle, var(--color-projects2), var(--color-projects1));
@@ -70,12 +19,6 @@
   background-size: 200% 200%;
   background-clip: text;
   color: transparent;
-}
-
-.index-comment {
-  color: var(--color-muted);
-  font-size: 1em;
-  font-style: italic;
 }
 </style>
 
@@ -98,7 +41,7 @@
 
     <div class="index-entry">
       <a href="/Posts"><div class="index-posts">Posts</div></a>
-      <div class="index-comment">(Some mini-notes of what i did on a specific date.)</div>
+      <div class="index-comment">(Some chatrooms of stuff i did on a day.)</div>
     </div>
   </div>
 
