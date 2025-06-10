@@ -4,7 +4,7 @@
 
 	function clean(line){
 		let index = line.indexOf(":");
-		return "<h1>" + line.substring(index+1, line.length);
+		return "<h3>" + line.substring(index+1, line.length);
 		}
 
 		function is_main(line){
@@ -48,12 +48,12 @@
  		border-radius: 10px;
 		height: max-content;
 
-		font-size: 0.2em;
+		font-size: 0.75em;
 	}
 
 	img {
-		height: 6vh;
-		width: 6vh;
+		height: 2em;
+		width: 2em;
 	}
 
   @media screen and (min-width: 768px) {
@@ -61,12 +61,9 @@
   		width: 60vw;
   		height: 100%;
   	}
-    .text {
-      font-size: 0.5em;
-    }
     img {
-    	height: 12vh;
-    	width: 12vh;
+    	height: 4em;
+    	width: 4em;
     }
 }
 </style>
