@@ -8,3 +8,4 @@
 # 0: Good question.
 # 0: *leaves.*
 # 1: Hey!
+# 0: <img src="/assets/red-panda-log.png">
