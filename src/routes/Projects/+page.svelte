@@ -6,7 +6,7 @@
   let color_c2 = "#8caaee"
 
   let color_python1 = color_c2
-  let color_python2 = "#f9e2af"
+  let color_python2 = "#f6c177"
   
   let projects = [
   {
@@ -50,7 +50,7 @@
     height: 6em;
     margin: 0.75em;
     background-color: var(--color-overlay);
-    transition: background-color 0.2s ease;
+    transition: background-color 0.5s;
     position: relative;
     border-radius: 10px;
   }
@@ -69,13 +69,12 @@
   }
 
   .card:hover {
-    background: var(--color-accent1);
+    background: linear-gradient(120deg, var(--color-accent2), var(--color-accent1));
     color: var(--color-overlay);
    }
 
   .card:hover a {
     color: var(--color-overlay);
-    text-decoration: underline;
   }
 
   a {
