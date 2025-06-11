@@ -29,11 +29,16 @@
 footer {
   background-color: var(--color-overlay);
   bottom: 0;
-  padding: clamp(0.25rem, 0.5vw, 1rem);
-  font-size: clamp(0.5rem, 1vw, 1rem);
+  padding: 0.5em 0em 0.5em 1.5em;
+  font-size: 0.75em;
   width: 100%;
   position: fixed;
+}
 
+@media screen and (min-width: 768px) {
+  footer {
+    font-size: 1em;
+  }
 }
 
 </style>

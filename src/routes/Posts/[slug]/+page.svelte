@@ -25,8 +25,8 @@
 	}
 
 	.posts-main{
-		margin-top: 3em;
-		margin-bottom: 3em;
+		margin-top: 2em;
+		margin-bottom: 4em;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -36,6 +36,7 @@
 		outline: 0.1em solid var(--color-nav2);
 }
 	.posts-title{
+		padding-bottom: 0.5em;
 		padding-top: 0.5em;
 		font-size: 1em;
 		font-style: italic;

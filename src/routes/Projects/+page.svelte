@@ -128,7 +128,7 @@
 </div>
 </div>
 {/each}
-<div class="container-content" style="margin-top: 1em">
+<div class="container-content" style="margin-top: 0.25em">
   Checkout more of my projects @ <a href="https://github.com/mooncell07" style="color: var(--color-link)">github/mooncell07</a>
 </div>
 <img src="assets/red-panda-painter.png" alt="" width=100vh height=100vh style="margin-top: 0.5em;margin-bottom: 2em;">
