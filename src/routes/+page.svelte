@@ -41,7 +41,7 @@
 
     <div class="index-entry">
       <a href="/Posts"><div class="index-posts">Posts</div></a>
-      <div class="index-comment">(Some chatrooms of stuff i did on a day.)</div>
+      <div class="index-comment">(Some random chatrooms.)</div>
     </div>
   </div>
 
