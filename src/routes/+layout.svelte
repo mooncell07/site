@@ -36,11 +36,18 @@ footer {
 }
 
 .webring {
-background: linear-gradient(120deg, var(--color-nav1), var(--color-nav2), var(--color-posts1), var(--color-posts2), var(--color-projects1), var(--color-projects2));
 width:max-content;
 border-radius: 5px;
 color: var(--color-base);
 padding: 2.5px;
+}
+
+.ctp {
+  background: linear-gradient(120deg, var(--color-nav1), var(--color-nav2), var(--color-posts1), var(--color-posts2), var(--color-projects1), var(--color-projects2));
+}
+
+.threet1t {
+  background: linear-gradient(120deg, var(--color-projects2), var(--color-flamingo));
 }
 
 .arrow {
@@ -69,8 +76,12 @@ padding: 2.5px;
   © 2025 mooncell07
   |
   <a href="https://ctp-webr.ing/nova/previous" class="arrow">&larr;</a
-><a href="https://ctp-webr.ing/" class="webring">ctp-webring</a
+><a href="https://ctp-webr.ing/" class="webring ctp">ctp-webring</a
 ><a href="https://ctp-webr.ing/nova/next" class="arrow">&rarr;</a>
+  |
+ <a href="https://3t1t.neocities.org/nova/previous" class="arrow">&larr;</a
+><a href="https://3t1t.neocities.org/" class="webring threet1t">3t1t-webring</a
+><a href="https://3t1t.neocities.org/nova/next" class="arrow">&rarr;</a>
   |
   <a href="/">Home</a>
   |
