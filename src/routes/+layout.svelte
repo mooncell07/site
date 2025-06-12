@@ -35,6 +35,14 @@ footer {
   position: fixed;
 }
 
+.webring {
+background: linear-gradient(120deg, var(--color-nav1), var(--color-nav2), var(--color-posts1), var(--color-posts2), var(--color-projects1), var(--color-projects2));
+width:max-content;
+border-radius: 5px;
+color: var(--color-base);
+padding: 2.5px;
+}
+
 @media screen and (min-width: 768px) {
   footer {
     font-size: 1em;
@@ -53,12 +61,16 @@ footer {
 <footer>
   © 2025 mooncell07
   |
-  <a href="https://www.flaticon.com/free-stickers/red-panda" title="red panda stickers">Red panda stickers created by Surfsup.Vector - Flaticon</a>
+  <a href="https://ctp-webr.ing/nova/previous">&larr;</a
+><a href="https://ctp-webr.ing/" class="webring">ctp-webring</a
+><a href="https://ctp-webr.ing/nova/next">&rarr;</a>
   |
   <a href="/">Home</a>
   |
-  <a href="/Projects">Projects</a>
+   <a href="/Projects">Projects</a>
   |
-  <a href="/Posts">Posts</a>
+   <a href="/Posts">Posts</a>
+  |
+  <a href="https://www.flaticon.com/free-stickers/red-panda" title="red panda stickers">Red panda stickers created by Surfsup.Vector - Flaticon</a>
 </footer>
 </div>

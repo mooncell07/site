@@ -20,6 +20,8 @@
   background-clip: text;
   color: transparent;
 }
+
+
 </style>
 
 <div class="container">
@@ -48,8 +50,11 @@
   <div class="container-content" style="margin-top:0.5em;">
   Any issues/pull requests to this site are welcomed.
   You can find the repository for this site <a href="https://github.com/mooncell07/site">here</a>.<br>
+
   </div>
 
-  <img src="assets/red-panda-cute.png" alt="" width=100vh height=100vh style="margin-top: 0.5em;margin-bottom: 2em;">
+
+  <img src="assets/red-panda-cute.png" alt="" width=100vh height=100vh style="margin-top: 0.5em; margin-bottom: 2em">
+
 
 </div>
