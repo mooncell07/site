@@ -43,8 +43,15 @@ color: var(--color-base);
 padding: 2.5px;
 }
 
+.arrow {
+  font-size: 1.5em;
+}
+
 @media screen and (min-width: 768px) {
   footer {
+    font-size: 1em;
+  }
+  .arrow {
     font-size: 1em;
   }
 }
@@ -61,9 +68,9 @@ padding: 2.5px;
 <footer>
   © 2025 mooncell07
   |
-  <a href="https://ctp-webr.ing/nova/previous">&larr;</a
+  <a href="https://ctp-webr.ing/nova/previous" class="arrow">&larr;</a
 ><a href="https://ctp-webr.ing/" class="webring">ctp-webring</a
-><a href="https://ctp-webr.ing/nova/next">&rarr;</a>
+><a href="https://ctp-webr.ing/nova/next" class="arrow">&rarr;</a>
   |
   <a href="/">Home</a>
   |
