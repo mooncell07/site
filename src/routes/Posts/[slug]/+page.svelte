@@ -38,7 +38,7 @@
 	.posts-title{
 		padding-bottom: 0.5em;
 		padding-top: 0.5em;
-		font-size: 1em;
+		font-size: clamp(1em, 1.75vw, 5em);
 		font-style: italic;
 		color: var(--color-muted);
 	}
@@ -46,7 +46,7 @@
 	.sub-entry{
 		display: flex;
 		max-width: 80%;
-		margin-top: 0.75em;
+		margin-top: clamp(0.75em, 1vw, 3em);
 	}
 
 	.text {
@@ -56,27 +56,19 @@
  		border-radius: 10px;
 		height: max-content;
 
-		font-size: 0.75em;
+		font-size: clamp(0.75em, 1vw, 3em);
 	}
 
 	img {
-		height: 2em;
-		width: 2em;
+  	width: clamp(2em, 3.5vw, 8em);
+  	height: clamp(2em, 3.5vw, 8em);
 	}
 
   @media screen and (min-width: 768px) {
   	.posts-main {
   		width: 60vw;
   		height: 100%;
-  	}
-  	.posts-title {
-  		font-size: 1.25em;
-  	}
-    img {
-    	height: 4em;
-    	width: 4em;
-    }
-    
+  	}  
 }
 
 	pad {
